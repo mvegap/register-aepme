@@ -1,0 +1,121 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+}
+html,body{
+	background: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #236daf;
+}
+a,a:hover{
+	text-decoration: none;
+	color: #236daf;
+	font-weight: 600;
+}
+.container{
+	padding: 25px;
+	margin:0px auto;
+	width: 750px;
+	height: auto;
+}
+.container h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 40px;
+	text-align: center;
+	margin:25px 0px 5px 0px;
+}
+.container h2{
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+}
+.container h1 span{
+	float: left;
+}
+.footer{
+	margin:0px auto;
+	width: 750px;
+	height: 150px;
+	background: url('img/footer.jpg');
+}
+form{
+	margin: 25px 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+form label span{
+	color: red;
+}
+form input{
+	background: #efefef;
+	border:none;
+	padding: 10px 15px;
+	margin:5px 0px;
+	width: 400px;
+}
+form input:hover{
+	background: #efefef;
+}
+form input:focus{
+	background: #efefef
+}
+#paterno{
+	margin-left: 5px;
+}
+#nombres{
+	margin-left: 58px;
+}
+#dni{
+	margin-left: 102px;
+}
+#email{
+	margin-left: 13px;
+}
+.pre-buttons{
+	margin:35px 0px;
+	text-align: center;
+}
+.contact-info p{
+	font-size: 18px;
+	margin-bottom: 5px;
+	color: #494949;
+}
+.more-information{
+	color: #236daf !important;
+	margin:5px 0px;
+	font-size: 18px;
+	font-weight: 600;
+}
+form button{
+	border:none;
+	border-radius: 0px;
+	padding: 12px 22px;
+	background: #236daf;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	margin-right: 15px;
+	border-bottom: 5px solid #2D6191
+}
+form button:hover{
+	background: #29659A;
+	cursor: pointer;
+}
+form button:active{
+	background: #236daf;
+	cursor: pointer;
+}
+.permisos{
+	margin:25px auto;
+	text-align: center;
+	width: 500px;
+	line-height: 15px;
+}
+.permisos small{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
